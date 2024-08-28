@@ -42,4 +42,21 @@ for (let i = 0; i< bt.randInRange(1,12); i++) {
       [[ran1,30], [ran2,90]]
       ])
   }
+  else if (d1 == 0 && d2 == 1) { //y=30, x=100
+    drawLines([
+      [[ran1,30], [100,ran2]]
+      ])
+  }
+
+  else if (d1 == 1 && d2 == 0) { //x=30, y=90
+    drawLines([
+      [[30,ran1], [ran2,90]]
+      ])
+  }
+
+  else if (d1 == 1 && d2 == 1) { //x=30, x=100
+    drawLines([
+      [[30,ran1], [100,ran2]]
+      ])
+  }
 }
